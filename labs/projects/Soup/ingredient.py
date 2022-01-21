@@ -7,7 +7,9 @@ class Ingredient:
         self.amount = amount
 
     def __str__(self) -> str:
-        return f"name = {self.name}\namount = {self.amount}"
+        return f"name = {self.name}\namount = {self.amount}\n"
 
     def get_info(self):
         webbrowser.open(f"https://en.wikipedia.org/wiki/{self.name.capitalize()}")
+
+    
